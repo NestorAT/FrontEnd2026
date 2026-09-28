@@ -1,0 +1,17 @@
+html{
+    font-family: cursive;
+
+}
+
+div{
+    margin-top: 150px;
+    border: 2px solid rgb(131, 131, 233);
+
+}
+
+img{
+    position:absolute;
+    width: 100%;
+    height: auto;
+
+}
