@@ -6,6 +6,8 @@ html{
 div{
     margin-top: 150px;
     border: 2px solid rgb(131, 131, 233);
+    position:relative;
+    
 
 }
 
