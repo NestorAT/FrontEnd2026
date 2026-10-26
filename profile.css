@@ -1,18 +1,40 @@
 html{
-    font-family: cursive;
+    font-family: cursive
 }
-
-#header-pic{
-    width: 100%;
-    height: 200px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
-    background-size: cover;
-    background-position: center;
+#header-pick{
+    width: 10%;
+    height: 10%;
+    border:4px solid black;
+    border-radius: 50%;
 }
 
 header{
+    background-color: rgb(250, 235, 152);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+}
+header h1{
+    color: rgb(240, 130, 5);
+    text-align: center;
+}
+main{
+    background-color: rgb(240, 130, 5);
+    text-align: center;
+}
+#header-pick{
+    width: 10%;
+    height: 10%;
+    border:4px solid rgb(240, 130, 5);
+    border-radius: 50%;
+}
+header > nav > ul{
+    background-color: rgb(250, 235, 152);
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#My-projects >div{
+    background-color: rgb(240, 130, 5);
 }
