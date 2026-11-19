@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pantalla {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eaf6;
+    padding: 20px;
+}
+
+.caja {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+
+button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
